@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ja">
+    <head>  
+        <meta charset="UTF-8"/>
+        <title>Delete a ToDo Item</title>
+    </head>
+    <body>
+        <h1>Delete a ToDo Item</h1>
+
+        {{result}}
+
+        <form method="POST" target="/delete">
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id" required>
+            <input type="submit" value="Delete">            
+        </form>
+    
+    <p>Go back to <a href="/">Index</a></p>
+    </body>
+</html>

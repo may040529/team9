@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 写真管理アプリ用
+
+# SQLiteデータベース
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+
+# アップロードされた写真
+page_sql/static/uploads/*
+!page_sql/static/uploads/.gitkeep
